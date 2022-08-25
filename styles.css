@@ -62,7 +62,8 @@ html, body {
     height: 100%;
     margin: 0 0 0 auto;
     padding: 0;
-    background: 400% 50% no-repeat transparent url(assets/merged_icons_transparent_bg.svg);
+    background: 50% 50% no-repeat transparent url(assets/icon_list_m@1x.svg);
+    /* background: 400% 50% no-repeat transparent url(assets/merged_icons_transparent_bg.svg); */
     border: none;
     border-radius: 0;
     appearance: none;
@@ -387,8 +388,9 @@ html, body {
 }
 
 .hero-dashboard__icon_rain {
-    background: url(assets/merged_icons_transparent_bg.svg) 0% 0% no-repeat;
-    background-size: cover;
+    background-image: url(assets/cloud-drizzle.svg);
+    /* background: url(assets/merged_icons_transparent_bg.svg) 0% 0% no-repeat;
+    background-size: cover; */
 }
 
 .hero-dashboard__schedule {
